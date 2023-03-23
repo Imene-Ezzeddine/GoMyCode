@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-pip install streamlit==1.13.0
+
 import pandas as pd
 import streamlit as st
 from sklearn import datasets
