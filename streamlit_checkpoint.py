@@ -33,22 +33,22 @@ def user_input_features():
                 'petal_width': petal_width}
    features = pd.DataFrame(user_input_data, index=[0])
    return features
- df = user_input_features()
- st.subheader('User Input Parameters')
- st.write(df)
- iris = datasets.load_iris()
- X = iris.data
- Y = iris.target
- classifier = RandomForestClassifier()
- classifier.fit(X, Y)
- pred = classifier.predict(df)
- if pred == 0:
-   prediction = "setosa"
- elif pred == 1:
-   prediction = "versicolor"
- elif pred == 2:
-   prediction = "virginica"
- classify = st.button('Classify')
- if classify:
-   st.subheader("The flower type is:")
-   st.write(prediction)
+df = user_input_features()
+st.subheader('User Input Parameters')
+st.write(df)
+iris = datasets.load_iris()
+X = iris.data
+Y = iris.target
+classifier = RandomForestClassifier()
+classifier.fit(X, Y)
+pred = classifier.predict(df)
+if pred == 0:
+  prediction = "setosa"
+elif pred == 1:
+  prediction = "versicolor"
+elif pred == 2:
+  prediction = "virginica"
+classify = st.button('Classify')
+if classify:
+  st.subheader("The flower type is:")
+  st.write(prediction)
