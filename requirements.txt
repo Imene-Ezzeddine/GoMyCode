@@ -201,7 +201,7 @@ multimethod==1.9.1
 multipledispatch==0.6.0
 multitasking==0.0.11
 murmurhash==1.0.9
-music21==5.5.0
+music21==7.1.0
 natsort==5.5.0
 nbclient==0.7.2
 nbconvert==6.5.4
