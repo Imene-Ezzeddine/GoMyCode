@@ -155,7 +155,7 @@ ipython-sql==0.4.1
 ipywidgets==7.7.1
 itsdangerous==2.1.2
 jax==0.4.6
-jaxlib==0.4.6+cuda11.cudnn86
+jaxlib==0.4.6
 jieba==0.42.1
 Jinja2==3.1.2
 joblib==1.1.1
