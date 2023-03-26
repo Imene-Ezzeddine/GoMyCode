@@ -333,8 +333,7 @@ sortedcontainers==2.4.0
 soundfile==0.12.1
 soupsieve==2.4
 soxr==0.3.4
-spacy>=3.0.0,<4.0.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
+spacy>=3.0.0,<4.0.0 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
 Sphinx==3.5.4
