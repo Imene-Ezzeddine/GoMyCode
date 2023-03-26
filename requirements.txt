@@ -63,7 +63,7 @@ earthengine-api==0.1.346
 easydict==1.10
 ecos==2.0.12
 editdistance==0.5.3
-en-core-web-sm==3.5.0
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
 entrypoints==0.4
 ephem==4.1.4
 et-xmlfile==1.1.0
