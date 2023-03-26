@@ -126,7 +126,6 @@ imgaug==0.4.0
 importlib-metadata==6.1.0
 importlib-resources==5.12.0
 imutils==0.5.4
-inflect==6.0.2
 iniconfig==2.0.0
 intel-openmp==2023.0.0
 ipykernel==5.3.4
@@ -209,7 +208,6 @@ palettable==3.3.0
 pandas==1.4.4
 pandas-datareader==0.10.0
 pandas-gbq==0.17.9
-pandas-profiling==3.2.0
 pandocfilters==1.5.0
 panel==0.14.4
 param==1.13.0
